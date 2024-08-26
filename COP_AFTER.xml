@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<Factura>
+	<Cabecera Vencimiento="2024-01-03" TipoOperacion="10" TipoFactura="01" Observaciones=" pedido prueba " Numero="3694" MonedaFactura="COP" LineasDeFactura=" 1" HoraEmision="15:50:06" FormaDePago="2" FechaEmision="2023-12-04"/>
+	<NumeracionDIAN PrefijoNumeracion="" NumeroResolucion="18764027390030" FechaInicio="2022-04-04" FechaFin="2023-04-04" ConsecutivoInicial="2454" ConsecutivoFinal="4000000"/>
+
+
+-<Notificacion de="900428195@factureinbox.co" Tipo="MAIL">
+
+
+-<Notificacion>
+			<para>recepfracondor@elcondor.com</para>
+		</Notificacion>
+	</Notificacion>
+
+
+-<Emisor TipoRegimen="No aplica" TipoPersona="1" TipoIdentificacion="31" RazonSocial="Lhoist Colombia SAS" NumeroMatriculaMercantil="0928501012" NumeroIdentificacion="900428195" DV="0">
+		<Direccion NombreDepartamento="Bolívar" NombreCiudad="CARTAGENA DE INDIAS" Direccion="ZN FRANCA LA CANDELARIA KM 9 VIA MAMONAL MZ R LT R 141" CodigoPostal="130001" CodigoMunicipio="13001" CodigoDepartamento="13"/>
+
+
+-<ObligacionesEmisor>
+			<CodigoObligacion>R-99-PN</CodigoObligacion>
+		</ObligacionesEmisor>
+		<DireccionFiscal NombreDepartamento="Bolívar" NombreCiudad="CARTAGENA DE INDIAS" Direccion="ZN FRANCA LA CANDELARIA KM 9 VIA MAMONAL MZ R LT R 141" CodigoPostal="130001" CodigoMunicipio="13001" CodigoDepartamento="13"/>
+		<TributoEmisor NombreTributo="IVA" CodigoTributo="01"/>
+	</Emisor>
+
+
+-<Cliente TipoRegimen="No aplica" TipoPersona="1" TipoIdentificacion="31" RazonSocial="Construcciones El Cóndor SA" NumeroMatriculaMercantil="2104204504" NumeroIdentificacion="890922447" DV="4" NombreComercial="Construcciones El Cóndor SA">
+		<PersonaNatural SegundoNombre="" PrimerNombre="" Apellido=""/>
+		<Direccion NombreDepartamento="Antioquia" NombreCiudad="MEDELLIN" Direccion="Cr 25 N° 3 - 45 Piso 3" CodigoPostal="050001" CodigoMunicipio="05001" CodigoDepartamento="05" NombrePais="Colombia" IdiomaPais="ES" CodigoPais="CO"/>
+		<DireccionFiscal NombreDepartamento="Antioquia" NombreCiudad="MEDELLIN" Direccion="Cr 25 N° 3 - 45 Piso 3" CodigoPostal="050001" CodigoMunicipio="05001" CodigoDepartamento="05" NombrePais="Colombia" IdiomaPais="es" CodigoPais="CO"/>
+		<Contacto Telfax="0" Telefono="4 2680099" Notas="LIBRE PARA NOTAS" Nombre="Factura Electrónica" Email="recepfracondor@elcondor.com"/>
+		<TributoCliente NombreTributo="IVA" CodigoTributo="01"/>
+	</Cliente>
+	<TasaDeCambio ValorTasaDeCambio="" MonedaDestino="" FechaTasaDeCambio=""/>
+
+
+-<Impuestos>
+
+
+-<Impuesto Tipo="01" Nombre="IVA" Valor="2584000.00 ">
+			<Subtotal Valor="2584000.00 " ValorUnidadMedidaBase="" ValorTributoXUnidad="" ValorBase="16150000.00 " Porcentaje="16.00" CodigoUnidadMedidaBase="TN"/>
+		</Impuesto>
+	</Impuestos>
+
+
+-<Retenciones>
+
+
+-<Retencion Tipo="05" Nombre="ReteIVA" Valor="387600.00 ">
+			<Subtotal Valor="387600.00 " ValorBase="2584000.00 " Porcentaje="15.00"/>
+		</Retencion>
+
+
+-<Retencion Tipo="06" Nombre="ReteRenta" Valor="403750.00 ">
+			<Subtotal Valor="403750.00 " ValorBase="16150000.00 " Porcentaje="2.50"/>
+		</Retencion>
+	</Retenciones>
+	<Totales Retenciones="791350" Redondeo="0" Impuestos="2584000" General="18734000" Descuentos="0" Cargos="0.00" BrutoMasImpuestos="18734000" Bruto="16150000" BaseImponible="16150000" Anticipo=""/>
+
+
+-<Linea>
+		<Detalle ValorTotalItem="18734000" UnidadMedida="TN" UnidadCantidadBase="TN" SubTotalLinea="16150000" PrecioUnitario="475000" NumeroLinea="1" Nota="" NombreModelo="" Marca="Proviacal ST" Descripcion="Proviacal ST" CantidadXEmpaque="1" CantidadBase="34.000" Cantidad="34.000"/>
+
+
+-<Impuestos>
+
+
+-<Impuesto Tipo="01" Nombre="IVA" Valor="2584000">
+				<Subtotal Valor="2584000" ValorUnidadMedidaBase="16150000" ValorTributoXUnidad="" ValorBase="16150000" Porcentaje="16.00" CodigoUnidadMedidaBase="TN"/>
+			</Impuesto>
+		</Impuestos>
+		<Retenciones/>
+	</Linea>
+
+
+-<Extensiones>
+
+
+-<DatosAdicionales>
+			<campoAdicional Nombre="OC" Valor="Prueba"/>
+			<campoAdicional Nombre="TelCliente" Valor="4 2680099"/>
+			<campoAdicional Nombre="Banks" Valor=" Intermediary Bank: Citibank, New York. N.Y SWIFT: CITIUS33 ABA: 021000089 Beneficiary Bank: Itaú Corpbanca Colombia SA Account: 10953817 Swift: BCTOCOBB Beneficiary Name: Lhoist Colombia SAS Account: 501-38332-7 "/>
+			<campoAdicional Nombre="Incoterms" Valor="EXW"/>
+			<campoAdicional Nombre="Origen" Valor="Zona Franca la Candelaria (Cartagena - Colombia)"/>
+			<campoAdicional Nombre="Destino" Valor="Colombia"/>
+			<campoAdicional Nombre="TextoFinal" Valor=" Lhoist Latin América Emisor factura: LHOIST COLOMBIA S.A.S. NIT: 900428195-0 Somos contribuyentes del Impuesto de Industria y Comercio únicamente La ciudad de Cartagena. Favor abstenerse de practicar retención en la fuente por ICA en otra ciudad acuerdo al Art. 77 - Ley 49 de 1990 "/>
+			<campoAdicional Nombre="ValorEnLetras" Valor="DIECIOCHO MILLONES SETECIENTOS TREINTA Y CUATRO MIL COP"/>
+			<campoAdicional Nombre="TextoLegal" Valor=" Esta factura de venta se asimila en todos sus efectos legales a la letra de cambio (Art. 772, 773 y 774 del Codigo de Comercio) La mora en el pago ocasionará intereses mensuales sobre el saldo a la tasa máxima legal vigente. Con la recepción de esta, el cliente declara haber recibido a satisfacción el producto y/o servicio. "/>
+			<campoAdicional Nombre="Condicion Pago" Valor="30 DIAS"/>
+		</DatosAdicionales>
+		<AdditionalDocumentInformation/>
+	</Extensiones>
+</Factura>
